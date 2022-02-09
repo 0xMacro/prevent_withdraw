@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.10;
 
 contract WithdrawContract {
 
@@ -23,6 +23,6 @@ contract WithdrawContract {
     }
 
     // allow deposit of funds
-    receive() external payable {}
+    function contribute() external payable {}
 
 }
